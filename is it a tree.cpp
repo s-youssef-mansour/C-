@@ -3,8 +3,6 @@
 
 using namespace std;
 
-#define neig(u, e, v) for(int e = head[u], v ; v = to[e], ~e ; e = nxt[e])
-
 const int N=10000,M=20000;
 
 int head[N], nxt[M], to[M], ne, n, m;
